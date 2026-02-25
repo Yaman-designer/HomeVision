@@ -4,10 +4,10 @@ import Image from "next/image";
 
 export default function AboutSection() {
   return (
-    <section className="w-full bg-white py-40">
-      <div className="mx-auto max-w-6xl px-6 grid gap-40 md:grid-cols-2 items-center">
+    <section className="w-full  bg-white py-46">
+      <div className="mx-auto max-w-7xl px-6 grid gap-40 md:grid-cols-2 items-center ">
         {/* الصورة */}
-        <div className="relative h-[260px] sm:h-[320px] md:h-[360px]">
+        <div className="relative   h-[260px] sm:h-[320px] md:h-[360px]">
           <Image
             src="/about-image.jpg"
             alt="Modern house"
@@ -18,8 +18,8 @@ export default function AboutSection() {
         </div>
 
         {/* النص والإحصائيات */}
-        <div className="space-y-5 text-center md:text-left">
-          <h2 className="text-2xl sm:text-3xl md:text-[32px] font-extrabold text-[#2c1b14] leading-snug">
+        <div className="space-y-5 grid md:grid-cols-1 text-center md:text-left">
+          <h2 className="text-2xl sm:text-3xl md:text-[42px] font-extrabold text-[#2c1b14] leading-snug">
             We Help You To Find <br className="hidden sm:block" />
             Your Dream Home
           </h2>
@@ -31,7 +31,7 @@ export default function AboutSection() {
           </p>
 
           {/* الإحصائيات */}
-          <div className="mt-4 flex flex-wrap justify-center md:justify-start gap-6 sm:gap-10">
+          <div className="mt-4 flex flex-wrap justify-center md:justify-start gap-9 sm:gap-10">
             <div>
               <p className="text-2xl sm:text-3xl font-extrabold text-[#2c1b14]">
                 8K+

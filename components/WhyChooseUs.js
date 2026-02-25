@@ -5,7 +5,7 @@ import { MapPin, UserCheck, ClipboardCheck, Headphones } from "lucide-react";
 export default function WhyChooseUs() {
   return (
     <section className="w-full py-16 bg-[#fff7f1]">
-      <div className="max-w-6xl mx-auto px-6 text-center">
+      <div className="max-w-7xl mx-auto px-1 text-center">
         {/* العنوان */}
         <h2 className="text-3xl md:text-4xl font-extrabold text-[#2c1b14]">
           Why Choose Us
@@ -16,7 +16,7 @@ export default function WhyChooseUs() {
         </p>
 
         {/* البطاقات */}
-        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {/* Card 1 */}
           <div className="bg-[#d8b8a4] p-6 rounded-xl shadow-md hover:shadow-lg transition text-left flex flex-col items-start">
             <div className="w-14 h-14 bg-white/70 rounded-lg flex items-center justify-center mb-4">

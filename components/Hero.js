@@ -6,7 +6,7 @@ import { MapPin, Home, DollarSign } from "lucide-react";
 export default function Hero() {
   return (
     <section className="relative w-full bg-[#fff7f1]">
-      <div className="mx-auto max-w-6xl px-6 pt-10 grid grid-cols-1 md:grid-cols-2 items-center ">
+      <div className="mx-auto max-w-7xl px-6 pt-10 grid grid-cols-1 md:grid-cols-2 items-center ">
         
         {/* Left Content */}
         <div className="space-y-2 max-w-md">
@@ -26,8 +26,8 @@ export default function Hero() {
         </div>
 
         {/* Right Image */}
-        <div className="relative w-full md:justify-end flex">
-          <div className="relative h-[420px] md:h-[520px] w-full max-w-2xl">
+        <div className="relative w-full md:justify-center flex">
+          <div className="relative h-[420px] md:h-[520px] w-full max-w-8xl">
             <Image
               src="/Hero-image.jpg"
               alt="Modern house"
