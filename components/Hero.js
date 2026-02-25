@@ -29,7 +29,7 @@ export default function Hero() {
         <div className="relative w-full md:justify-end flex">
           <div className="relative h-[420px] md:h-[520px] w-full max-w-2xl">
             <Image
-              src="/hero-image.jpg"
+              src="/Hero-image.jpg"
               alt="Modern house"
               fill
               priority
